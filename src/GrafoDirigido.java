@@ -12,6 +12,10 @@ public class GrafoDirigido<T> implements Grafo<T> {
 	private Map<Integer, Set<Integer>> vertices;
 	private Map<Integer, Arco<T>> arcos;
 	
+	public Map<Integer, Set<Integer>> getVertices() {
+		return vertices;
+	}
+
 	public GrafoDirigido () {
 		vertices = new HashMap<>();
 		arcos = new HashMap<>();
