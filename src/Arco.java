@@ -23,7 +23,7 @@ public class Arco <T> {
 	}
 	
 	public String toString() {
-		return (String) this.getEtiqueta();
+		return "Arco: " + (String) this.getEtiqueta();
 		
 	}
 
